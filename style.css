@@ -1,0 +1,439 @@
+ /* style for company website */
+ body{
+    font-family: "Open Sans", sans-serif;
+}
+.landing-container {
+    background: linear-gradient(#41485feb,#41485feb), url(images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 667px;
+    width:100%;
+}
+/* navbar */
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9f9fa;
+}
+nav h1 {
+    padding-top: 1.8rem;
+    margin: 0px 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+nav ul {
+    display: flex;
+    gap: 33px;
+    padding: 0;
+    
+}
+nav li {
+    list-style: none;
+    line-height: 98px;
+    font-size: 17px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+    color: #f9f9fa;
+}
+ nav .menu-bar {
+    padding: 0 10px;
+    line-height: 98px;
+    font-size: 17px;
+    display: none;
+    color: #b0ebd5;
+}
+nav .menu-bar .fa-solid {
+    font-size: 24px;
+}
+
+nav span {
+    margin: 0px 133px;
+    line-height: 98px;
+    font-size: 17px;
+}
+/* landing page */
+.landing-heading {
+    height: 83%;
+    padding-top: 200px;
+    text-align: center;
+}
+.landing-heading span {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.landing-heading h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 0 30%;
+    padding-bottom: 30px;
+    line-height: 55px;
+}
+.land-input[type="email"] {
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 14px;
+    color: #bbbeee;
+}
+form {
+    display: inline-block;
+    position: relative;
+}
+ #land-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+button{
+    width: 142px;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 14px;
+    background-color: #29ca8e;
+    color: white;
+}
+
+/* getting section */
+.getting-section {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.getting-content {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 70px;
+    padding-left: 110px;
+
+}
+.getting-content h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #424d55;
+    padding-bottom: 30px;
+}
+.getting-content span {
+    height: 50px;
+    display: block;
+    margin-bottom: 40px;
+}
+.getting-content span a {
+    margin-right: 32px;
+    padding: 16px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color:  #a6a6a6;
+}
+#responsive{
+    border-bottom: solid 3px #29ca8e;
+    color: #424d55;
+}
+.getting-content h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #424d55;
+}
+.getting-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #938f8c;
+    padding-bottom: 10px;
+}
+.getting-img {
+    width: 49%;
+    display: inline-block;
+    padding: 0px 30px;
+}
+      /* team-section */
+
+      #team-section , .common-section {
+        padding: 100px;
+        background-color: #f9f9f9;
+    }
+    .common-section h1 {
+        font-size: 45px;
+        font-weight: 300;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #424d55;
+    }
+    .team-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .team-box {
+        height: 100%;
+        position: relative;
+        color: #424d55;
+    }
+    .profile-img {
+        height: 69%;
+        width: 100%;
+    }
+    .team-content {
+        padding: 30px;
+        background-color: white;
+    }
+    .team-content h2 {
+        font-weight: 300;
+        font-size: 28px;
+    }
+    .team-content h4 {
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .team-content p {
+        font-size: 14px;
+        margin-top: 8px;
+        line-height: 1.6;
+    }
+    .team-box .fa-sharp {
+        font-size: 55px;
+        position: absolute;
+        top: 64%;
+        left: 45%;
+        color: white;
+    }
+    #box-reverse .fa-sharp {
+        rotate: 180deg;
+        top: 32%;
+    }
+    /* plan section */
+    .plan-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        gap: 3px;
+    }
+    .plan-box {
+        height: 100%;
+        color: #424d55;
+        flex: 1;
+        background-color: white;
+        padding: 32px;
+    }
+    .plan-box h2 {
+        font-weight: 300;
+        font-size: 30px;
+        border-bottom: solid 3px #f0f0f0;
+        padding-bottom: 10px;
+    }
+    .plan-box ul {
+        list-style: none;
+        padding: 23px 0;
+        line-height: 2;
+        border-bottom: solid 3px #f0f0f0;
+    }
+    .plan-box ul li {
+        color: #938f8c;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #prize {
+        padding: 17px 0;
+        width: 100%;
+    }
+    #prize span {
+        margin-right: 65px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #424d55;
+    }
+    /* say to us section */
+    #say-hello {
+        background-color: #ffffff;
+    }
+    .us-input {
+        border: none;
+        color: #aaaaaa;
+        border-bottom: solid 3px #f3f3f3;
+        padding: 10px;
+        width: 265px;
+        margin: 0 10px;
+    }
+    .input-get {
+        margin: 0 100px;
+    }
+    button.sent {
+        background-color: black;
+        width: 280px;
+    }
+    input.summary {
+        width: 100%;
+        padding-bottom: 175px;
+        border: none;
+        border-bottom: solid 3px #f3f3f3;
+        margin-top: 20px;
+        padding-left: 23px;
+        font-size: 18px;
+    }
+    footer {
+        margin: 75px 100px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        color: #aaaaaa;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    i {
+        margin: 0 10px;
+        color: black;
+    }
+
+
+
+
+
+/* mobile width responsive */
+
+@media (max-width: 599px) {
+    /* navbar */
+    .landing-container {
+        height: 760px;
+        width: 100%;
+    }
+    nav {
+        height: 100px;
+        background-color: white;
+        height: 8%;
+    }
+    nav h1 {
+        padding-top: 1rem;
+        margin: 0px 15px;
+        font-size: 22px;
+        font-weight: 600;
+        color: black;
+    }
+    nav ul, nav span{
+        display: none;
+    }
+    nav .menu-bar {
+        padding: 19px 10px 20px 10px;
+        line-height: 0;
+        display: block;
+        color: #b0ebd5;
+    }
+    /* landing page */
+    .landing-heading {
+        height: 83%;
+        padding-top: 140px;
+    }
+    .landing-heading h1 {
+        font-size: 2.5rem;
+        margin: 0px 21%;
+        padding-bottom: 30px;
+        line-height: 55px;
+        width: 250px;
+    }
+    form {
+        display: block;
+        position: inherit;
+    }
+    input[type="email"] {
+        width: 320px;
+        padding: 12px 14px;
+        color: #bbbeee;
+    }
+    #land-btn{
+        position: inherit;
+        width: 320px;
+        margin: 30px;
+
+    }
+    /* getting section */
+    .getting-content {
+        width: 100%;
+        display: block;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .getting-img {
+        width: 100%;
+        display: block;
+        padding: 0px 30px;
+    }
+    /* team setion */
+    #team-section {
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    .team-container {
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    .team-box{
+        width: 100%;
+    }
+    #box-reverse {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    #box-reverse .fa-sharp {
+        rotate: 0deg;
+        top: 63%;
+    }
+    /* plan section */
+    #plan-section{
+        padding: 0;
+    }
+    .plan-container {
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    #prize span {
+        margin-right: 100px;
+    }
+    /* say to us section */
+    .common-section{
+        padding: 0;
+        height: max-content;
+    }
+    .input-get {
+        margin: 10px;
+
+    }
+    .us-input {
+        width: 320px;
+        padding: 12px 14px;
+        color: #bbbeee;
+    }
+    button.sent {
+        position: inherit;
+        width: 320px;
+        margin: 30px
+    }
+    /* footer */
+    footer {
+        margin: 75px 0px;
+        margin-bottom: 0;
+        display: block;
+        color: #aaaaaa;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    
+
+
+
+
+
+}
